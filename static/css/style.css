@@ -267,7 +267,7 @@ nav span {
     transform: translateY(-50%);
     max-height: 90vh;
     width: 55%;
-    background: rgba(0,10,25,0.5);
+    background: rgba(0,15,50,0.95);
     border: none;
     overflow-y: auto;
     padding: 20px 20px;
