@@ -171,11 +171,11 @@ nav span {
 }
 
 #nav-btn:hover {
-    background: rgba(0,0,0,.582)
+    background: rgba(0,10,25,0.5)
 }
 
 #nav-btn.active {
-    background: rgba(0,0,0,.582)
+    background: rgba(0,10,25,0.25)
 }
 
 #nav-btn::before {
@@ -213,7 +213,7 @@ nav span {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--bg-page);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 20%, rgba(0,51,102,1) 65%, rgba(0,102,153,1) 100%);
     transform: translateX(200%);
     transition: transform 1000ms ease;
     z-index: 2;
@@ -267,7 +267,7 @@ nav span {
     transform: translateY(-50%);
     max-height: 90vh;
     width: 55%;
-    background: #000400;
+    background: rgba(0,10,25,0.5);
     border: none;
     overflow-y: auto;
     padding: 20px 20px;
