@@ -384,14 +384,14 @@ nav span {
 
 .card {
     display: flex;
-    padding: 110px 0 0;
+    padding: 260px 0 0;
     flex-direction: column;
     margin-bottom: 15px;
     min-width: 260px;
     width: 100%;
     overflow: hidden;
     transform: scale(1);
-    transition: all 2s ease;
+    transition: all 3s ease;
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -399,7 +399,7 @@ nav span {
 }
 
 .card:hover {
-    background-size: 110%;
+    background-size: 100%;
     background-position: center;
     transform: scale(1.04);
     z-index: 300
@@ -418,7 +418,7 @@ nav span {
     padding: 20px;
     background: linear-gradient(hsl(0 0% 0% / 0),hsl(15 0% 0% / .5) 15%,hsl(0 0% 0% / 1));
     transform: translateY(65%);
-    transition: transform 1000ms ease
+    transition: transform 500ms ease
 }
 
 .card-content .techonologies {
@@ -440,7 +440,7 @@ nav span {
 }
 
 .card-content i {
-    color: #fc9;
+    color: #fff;
     font-size: 14px
 }
 
@@ -459,12 +459,12 @@ nav span {
     transition: 500ms ease
 }
 
-.button.green {
-    background-color: #030
+.button.blue {
+    background-color: #06f
 }
 
-.button.green:hover {
-    background-color: #060
+.button.blue:hover {
+    background-color: #39f
 }
 
 .button.red {
@@ -472,7 +472,7 @@ nav span {
 }
 
 .button.red:hover {
-    background-color: red
+    background-color: #c33
 }
 
 @keyframes fadeIn {
